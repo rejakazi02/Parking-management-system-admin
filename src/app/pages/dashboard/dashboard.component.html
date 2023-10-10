@@ -1,0 +1,113 @@
+
+
+
+<div class="section1" >
+  <div class="section1-main">
+    <!---card-->
+    <div
+      class="card"
+
+    >
+      <div class="card-top">
+        <div class="card-top-left">
+          <h3>Total Cars</h3>
+        </div>
+        <div class="card-top-right">
+          <div class="card-icon">
+            <mat-icon class="material-symbols-outlined">
+              point_of_sale
+            </mat-icon>
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="card-number" matTooltip="Total Cars">
+          <h3>
+            {{
+            totalCars
+            }}
+          </h3>
+        </div>
+        <div class="card-activity">
+          <h5 matTooltip="Today Sale">
+            <mat-icon>show_chart</mat-icon>
+
+          </h5>
+        </div>
+      </div>
+    </div>
+    <!---card-->
+
+    <!---card-->
+    <div class="card" >
+      <div class="card-top">
+        <div class="card-top-left">
+          <h3>Total Trucks</h3>
+        </div>
+        <div class="card-top-right">
+          <div class="card-icon">
+            <mat-icon>task</mat-icon>
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="card-number" matTooltip="Total Trucks">
+          <h3>
+            {{
+           totalTrucks
+            }}
+          </h3>
+        </div>
+        <div class="card-activity">
+          <h5 matTooltip="Total Invoice">
+            <mat-icon>show_chart</mat-icon>
+
+          </h5>
+        </div>
+      </div>
+    </div>
+
+
+    <!---card-->
+    <div class="card">
+      <div class="card-top">
+        <div class="card-top-left">
+          <h3>Total Microbus</h3>
+        </div>
+        <div class="card-top-right">
+          <div class="card-icon">
+            <mat-icon>leaderboard</mat-icon>
+          </div>
+        </div>
+      </div>
+      <div class="card-body">
+        <div class="card-number" matTooltip="Total Microbus">
+          <h3>
+            {{
+            totalMicrobus
+            }}
+          </h3>
+        </div>
+        <div class="card-activity">
+          <h5 matTooltip="Work direction done percentage today">
+            <mat-icon>show_chart</mat-icon>
+            <!--            {{0}}%-->
+          </h5>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+</div>
+
+
+
+
+
+
+
+<div class="donut">
+  <app-donut></app-donut>
+</div>
+
